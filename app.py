@@ -34,7 +34,6 @@ def main():
     # Initialize session state for page tracking
     if "page" not in st.session_state:
         st.session_state.page = "Visitor Registration"
-        visitor_reg()  # Show visitor registration by default
 
     # side bar for navigation
     st.sidebar.title("Navigation")
